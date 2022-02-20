@@ -5,7 +5,7 @@ function tiStatus(status) {
 	return (
 		<div className="tiStatus">
 			<div className="tvibrate">
-				<p>ความสั่นสะเทือน {status.vibrate===0?ปกติ:ไม่ปกติ}</p>
+				<p>ความสั่นสะเทือน {status.vibrate===0?"ปกติ":"ไม่ปกติ"}</p>
 			</div>
 			<div className="ttemper">
 				<p>อุณหภูมิ</p>
